@@ -1,3 +1,25 @@
+## This is a fork of pickadate.js with working Browserify support
+
+To install, put this in your package.json 
+`    "pickadate": "sakalauskas/pickadate.js",`
+and do `npm install`
+
+then just simply require in the code like that:
+
+`var $ = require('jquery');
+require('pickadate');
+
+$('.datepicker').pickadate({
+    formatSubmit: 'yyyy-mm-dd',
+    labelMonthNext: 'Go to the next month',
+    labelMonthPrev: 'Go to the previous month',
+    labelMonthSelect: 'Pick a month from the dropdown',
+    labelYearSelect: 'Pick a year from the dropdown',
+    selectMonths: true,
+    selectYears: true
+});
+`
+
 # pickadate
 
 The mobile-friendly, responsive, and lightweight jQuery date & time input picker.
