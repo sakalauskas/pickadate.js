@@ -6,7 +6,9 @@ and do `npm install`
 
 then just simply require in the code like that:
 
-`var $ = require('jquery');
+```
+var $ = require('jquery');
+
 require('pickadate');
 
 $('.datepicker').pickadate({
@@ -18,7 +20,7 @@ $('.datepicker').pickadate({
     selectMonths: true,
     selectYears: true
 });
-`
+```
 
 # pickadate
 
